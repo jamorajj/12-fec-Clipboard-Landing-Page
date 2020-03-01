@@ -2,7 +2,7 @@
 
 Frontend Challenge - Clipboard Landing Page
 
-Solution for Clipboard Landing Page challenge
+Solution for Clipboard Landing Page challenge.
 
 # Frontend Mentor - Clipboard Landing Page
 
