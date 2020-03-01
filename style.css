@@ -1,0 +1,480 @@
+:root {
+  --cyan: hsl(171, 66%, 44%);
+  --cyan-hover: hsl(171, 57%, 52%);
+  --light-blue: hsl(233, 100%, 69%);
+  --light-blue-hover: hsl(233, 97%, 73%);
+  --dark-gray-blue: hsl(210, 10%, 33%);
+  --gray-blue: hsl(201, 11%, 66%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.baijam {
+  font-family: "Bai Jamjuree";
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 18px;
+  background: url("images/bg-header-desktop.png") no-repeat top center;
+  background-size: 100vw auto;
+  font-family: "Bai Jamjuree";
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.ios-button {
+  padding: 0.5rem 1rem;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: var(--cyan);
+  border-radius: 20px;
+  border-bottom: 2px solid hsl(171, 100%, 35%);
+  box-shadow: 0 5px 10px rgba(0, 179, 152, 0.3);
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.ios-button:hover {
+  background-color: var(--cyan-hover);
+}
+
+.mac-button {
+  padding: 0.5rem 1rem;
+  width: 200px;
+  height: 40px;
+  border: none;
+  background-color: var(--light-blue);
+  border-radius: 20px;
+  border-bottom: 2px solid hsl(233, 100%, 66%);
+  box-shadow: 0 5px 10px rgba(82, 102, 255, 0.3);
+  color: #ffffff;
+  font-size: 0.8rem;
+}
+
+.mac-button:hover {
+  background-color: var(--light-blue-hover);
+}
+
+.hero {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero img {
+  margin-top: -10rem;
+  margin-bottom: 3rem;
+  height: 130px;
+  width: auto;
+}
+
+.hero h2 {
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+}
+
+.hero p {
+  text-align: center;
+  color: var(--gray-blue);
+  width: 40%;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.track {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.track h3 {
+  font-size: 1.7rem;
+  margin-bottom: 1.2rem;
+}
+
+.track p {
+  text-align: center;
+  width: 40%;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: var(--gray-blue);
+  margin-bottom: 1.5rem;
+}
+
+.features-two-col {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.features-two-col .features-left {
+  margin-left: -2rem;
+  width: 50%;
+}
+
+.features-two-col .features-left img {
+  width: 100%;
+}
+
+.features-two-col .features-right {
+  height: 350px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5rem;
+}
+
+.features-two-col .features-right .feature {
+  width: 350px;
+}
+
+.features-two-col .features-right .feature h4 {
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.features-two-col .features-right .feature p {
+  font-size: 1rem;
+  color: var(--gray-blue);
+  line-height: 1.5rem;
+}
+
+.features-one-col {
+  margin-top: 3rem;
+}
+
+.features-one-col .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-one-col .container .feature-text {
+  text-align: center;
+  width: 50%;
+}
+
+.features-one-col .container .feature-text h3 {
+  font-size: 1.7rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.features-one-col .container .feature-text p {
+  font-size: 1rem;
+  color: var(--gray-blue);
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+.features-one-col .container .feature-image {
+  margin: 3rem 0 2rem 0;
+}
+
+.features-three-col {
+  margin-top: 3rem;
+}
+
+.features-three-col .container {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-three-col .container .feature-box {
+  width: 30%;
+  height: 280px;
+  padding: 0 2.5rem;
+  text-align: center;
+}
+
+.features-three-col .container .feature-box img {
+  width: auto;
+  height: 40px;
+}
+
+.features-three-col .container .feature-box h4 {
+  font-size: 1.2rem;
+  margin-top: 1.8rem;
+}
+
+.features-three-col .container .feature-box p {
+  color: var(--gray-blue);
+  font-size: 1rem;
+  margin-top: 1.3rem;
+  line-height: 1.7rem;
+}
+
+.companies {
+  margin: 3rem 0;
+}
+
+.companies .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.downloads {
+  margin: 4rem 0;
+}
+
+.downloads .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.downloads .container h3 {
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+.downloads .container p {
+  margin-top: 1rem;
+  width: 50%;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  color: var(--gray-blue);
+}
+
+.downloads .container .download-buttons {
+  margin-top: 1.5rem;
+}
+
+footer {
+  background: #f5f6f8;
+  padding: 2rem 0;
+}
+
+footer .container {
+  padding: 0 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container .logo {
+  flex-basis: 15%;
+}
+
+footer .container .logo img {
+  width: 60px;
+}
+
+footer .container .links {
+  flex-basis: 75%;
+}
+
+footer .container .links ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer .container .links ul li {
+  width: 33%;
+  padding: 0.2rem 0;
+}
+
+footer .container .links ul li a {
+  color: var(--dark-gray-blue);
+}
+
+footer .container .links ul li a:hover {
+  color: var(--cyan);
+}
+
+footer .container .socials {
+  flex-basis: 20%;
+}
+
+footer .container .socials ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .container .socials ul li a:hover {
+  filter: invert(100%) sepia(100%) saturate(200%) hue-rotate(132deg)
+    brightness(80%) contrast(103%);
+}
+
+@media (max-width: 1000px) {
+  .hero p {
+    width: 60%;
+  }
+
+  .track p {
+    width: 60%;
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    background: url("images/bg-header-mobile.png") no-repeat top center;
+    background-size: 100vw auto;
+  }
+
+  .hero {
+    height: 100vh;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .hero img {
+    margin-top: 0rem;
+  }
+  .hero h2 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .hero p {
+    width: 90%;
+  }
+
+  .hero .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .hero .hero-buttons .ios-button,
+  .hero .hero-buttons .mac-button {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .track h3,
+  .track p {
+    text-align: center;
+    width: 90%;
+  }
+
+  .features-two-col {
+    flex-direction: column;
+  }
+
+  .features-two-col .features-left {
+    margin-left: 0rem;
+    width: 80%;
+  }
+
+  .features-two-col .features-right {
+    height: auto;
+    width: 80%;
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+
+  .features-two-col .features-right .feature {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .features-one-col {
+    margin-top: 8rem;
+  }
+
+  .features-one-col .container .feature-text {
+    width: 80%;
+  }
+
+  .features-one-col .container .feature-image {
+    width: 80%;
+  }
+
+  .features-one-col .container .feature-image img {
+    width: 100%;
+  }
+
+  .features-three-col .container {
+    flex-direction: column;
+  }
+
+  .features-three-col .container .feature-box {
+    width: 80%;
+  }
+
+  .companies .container {
+    flex-direction: column;
+    height: 350px;
+  }
+
+  .companies .container img {
+    margin-bottom: 3rem;
+  }
+
+  .downloads .container h3 {
+    text-align: center;
+  }
+
+  .downloads .container p {
+    width: 80%;
+  }
+
+  .downloads .container .download-buttons {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .downloads .container .download-buttons .ios-button,
+  .downloads .container .download-buttons .mac-button {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  footer .container .links {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  footer .container .links ul {
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  footer .container .links ul li {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
+  footer .container .socials {
+    width: 75%;
+  }
+}
